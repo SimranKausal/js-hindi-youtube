@@ -40,11 +40,11 @@
 
 //functions in javscript
 
-const myFunction = function(){
-    console.log("hello world I am a function")
-}
+// const myFunction = function(){
+//     console.log("hello world I am a function")
+// }
 
-myFunction();
+// myFunction();
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3//this is the link to study type of operators
@@ -55,12 +55,38 @@ myFunction();
 
 //typeof bigInt is undefined and typeof null is object
 
-let biginteger = 234345234n
-console.log( typeof biginteger)
+// let biginteger = 234345234n
+// console.log( typeof biginteger)
 
 
-let nullvalue = null
-console.log(typeof(null))
+// let nullvalue = null
+// console.log(typeof(null))
 
 
 //symbol ka typeof symbol hi hota hai
+
+
+/****************************************************************/
+//memory allocation in javavscript
+
+
+let mychannel = "myyoutubechannel"
+let anotherchannel = mychannel
+console.log(anotherchannel)//exapmle of  stack in primitive data types
+// all primitive data types get memory allocated in Stack
+
+
+
+//all non primitive data types get memory allocated in heap 
+
+const obj = {
+    fullname : "Yash Kaushal",
+    age:25
+}
+console.log(obj.fullname)
+console.log(obj.age)
+
+obj.fullname='Simran Kaushal'
+console.log(obj.fullname)
+
+console.log(obj)
