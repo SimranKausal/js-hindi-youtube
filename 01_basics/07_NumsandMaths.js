@@ -2,7 +2,7 @@ const score = 400//here automatically javascript has detected that 40 should be 
 console.log(score)
 
 
-const balance = new Number(700)//this is how explicitely tell the javascript to take 'balance' as of number data type  by doing this we can see properties and methods of number 700
+const balance = new Number(700)//this is how explicitely (explicit typecasting) tell the javascript to take 'balance' as of number data type  by doing this we can see properties and methods of number 700
 console.log(balance)
 const converttostring = balance.toString()
 console.log(typeof converttostring.length) 
