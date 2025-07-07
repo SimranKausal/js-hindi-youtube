@@ -17,7 +17,13 @@ console.log(school.indexOf('r'))// to know the index of given character
 //.replace method-replaces
 
 //example of .replace is
-let url = "kaushalsimran20%@gmaildotcom"
+let url = "kaushal-simran-20%@gmail-dotcom"
  console.log(url.replace("%",62))
+
+
+console.log(url.includes('kaushal'))//includes methods tells us that the given word exists in the string or not
+
+
+console.log(url.split('-'))//this will convert the string into array and seperate them based on the given context example:(-)
 
  
