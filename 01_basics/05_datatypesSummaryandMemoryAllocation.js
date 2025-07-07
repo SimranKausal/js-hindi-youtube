@@ -57,11 +57,11 @@
 
 // let biginteger = 234345234n
 // console.log( typeof biginteger)
-
+//bigInt ka undefined
 
 // let nullvalue = null
 // console.log(typeof(null))
-
+//null ka object
 
 //symbol ka typeof symbol hi hota hai
 
