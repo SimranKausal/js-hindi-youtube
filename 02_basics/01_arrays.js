@@ -49,6 +49,21 @@ const allnewheroes = [...marvel_heroes  , ...DC_heroes]//-> spread operator
 console.log(allnewheroes)// this works best in this case
 //spread operator combines the array elements as an individual element
 
+let anotherarray = [1,2,3,[4,5,6],7,6,7,[4,5]]
+let realanotherarray = anotherarray.flat(Infinity)
+console.log(realanotherarray)//flat method opens the combined parts upto the length given to it and we can also give infinity
 
 
+
+console.log(Array.isArray("Hitesh"))// this is used while data scraqping and through this method we can ask if the data thst is coming is array or not?
+console.log(Array.from("HITESH")) //this is how we can convert incoming data into an array itself
+console.log(Array.from({name:"Hitesh"}))//this is how we can also give an object to convert into array but it will get confuse and will return an empty array //this is an interesting case and important from the interview point of view
+
+
+ let score1=100;
+ let score2=200;
+ let score3 = 300;
+
+let converted_array = Array.of(score1,score2,score3)
+console.log(converted_array)//this is how we can convert some variable into array by uing 'of'
 
