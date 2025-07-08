@@ -15,7 +15,7 @@ isloggedin = 'true'
 
 //number = ranges for the number to store 2 to the power 53
 //BigInt = for storing very large numbers
-//string = always written inside doublw quotes
+//string = always written inside doublequotes
 //boolean = for yes or no (true and false)
 //null = standalone value // representation of an empty value (intentionally declaring the value as null)
 //undefined = value not yet defined
