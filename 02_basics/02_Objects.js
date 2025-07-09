@@ -78,14 +78,14 @@ myfunctionagain();// this is just a function so we wont log it seperately
 
 
 
-myobject1.greeting = function(){ // this is how we can put the function inside object
+// myobject1.greeting = function(){ // this is how we can put the function inside object
 
-    "hello js user";
+//    console.log('hello js user');
 
-}
+// }
 
 
-console.log(myobject1);
+// console.log(myobject1);
 
 let oksymbol = Symbol("okkey")
 
@@ -97,5 +97,16 @@ let functioninsideobject = {
    
 }
 
+functioninsideobject.objectfunction = function() {
+    console.log("this is the function which hs been added to functioninsideobject object")
+}
 
+
+console.log(functioninsideobject.objectfunction());
+
+functioninsideobject.greetfn = function() {
+    console.log(`hello js user , ${this.name}`);
+}
+
+console.log(functioninsideobject.greetfn());
 
