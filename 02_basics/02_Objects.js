@@ -86,3 +86,19 @@ myobject1.greeting = function(){ // this is how we can put the function inside o
 
 
 console.log(myobject1);
+
+let oksymbol = Symbol("okkey")
+
+let functioninsideobject = {
+    name:'yash kaushal',
+    contact: 966753489,
+    age:25,
+   [oksymbol]:"okkey",
+   
+}
+
+functionsinsideobject.greet()={
+    'hello this is function inside an object'
+}
+
+
