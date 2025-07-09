@@ -97,8 +97,5 @@ let functioninsideobject = {
    
 }
 
-functionsinsideobject.greet()={
-    'hello this is function inside an object'
-}
 
 
