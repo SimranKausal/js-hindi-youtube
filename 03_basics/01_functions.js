@@ -101,4 +101,15 @@
 //   price:299
 // }) // this will also work
 
+// how to pass an array in a function 
+
+const array = [10 , 20 ,30 ,40]
+
+function handleArray ( getArray) {// the parameter has been named as getarray because we can give any array to this function so we hae to put some generic name
+return getArray[1];
+
+}
+ console.log(handleArray(array)); // so this is how we pass array to function 
+ //..................................whether its an object or array we have to use the generic name ................................//
+
 
