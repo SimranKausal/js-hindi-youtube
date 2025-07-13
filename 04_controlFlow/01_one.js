@@ -58,3 +58,17 @@ const months = "January"
 
         
  }
+
+
+
+// truthy values
+  const useremail = "kaushalsimran@gmail.com";
+ if(useremail){
+    console.log("got user email");
+ }
+ else{
+    "Haven't got user's email";
+ }
+
+
+ 
