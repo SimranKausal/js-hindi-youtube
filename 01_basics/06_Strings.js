@@ -5,7 +5,7 @@
 //  console.log(`my name is ${fullname} and I am ${age} years old`)//this is known as string interpolation in javascript in which you can directly use variable inside string 
 
 
- //so there's a new way to define and declare a string so that e can use its properties and methods
+ //so there's a new way to define and declare a string so that we can use its properties and methods
 
  let school = new String('harkrishan') //by this way of declaring strings we can use its methods or properties.
 //  console.log(school.charAt(2))  this is used to print character present at the given index

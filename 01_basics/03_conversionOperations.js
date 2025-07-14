@@ -2,7 +2,7 @@
 // console.log(typeof (score)) //here we print its datatype
 
 
-// let score = "33";
+// let score = "33";//this is of sring data type
 // console.log(typeof(score))
 // let scorenumber = Number(score)
 // console.log(scorenumber)// here we have chnaged the dataype of the string to number
@@ -35,7 +35,9 @@
 
 
 //converting an empty string into number gives us 0 and converting into boolean gives us false and if we give non empty string it will gives us 1 and true simultaneously
-// let score = ""
+let score = ""
+let emptystringtonumber = Number(score)
+console.log(emptystringtonumber)
 // console.log(Boolean(score))
 
 

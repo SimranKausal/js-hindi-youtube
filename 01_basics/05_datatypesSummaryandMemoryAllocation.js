@@ -49,7 +49,7 @@
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3//this is the link to study type of operators
 
-//object,arrays d function type of is function
+//object,arrays d function (typeof) is function
 //function = object function 
 
 
