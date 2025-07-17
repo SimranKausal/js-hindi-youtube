@@ -42,7 +42,7 @@ const obj2={
 
 // const obj3 = {obj1,obj2}..................................way 1
 
-// console.log(obj3);//this will result in obj3 contains both the objects but we wanted to merge the content so we will not do it like this insted we will use assign or spread operator.
+// console.log(obj3);//this will result in obj3 contains both the objects but we wanted to merge the content so we will not do it like this instead we will use assign or spread operator.
 //  const obj3 = Object.assign({},obj1,obj2) //it is better to put empty array before putting the objects......................................way2
 //  console.log(obj3)
 
@@ -72,7 +72,7 @@ const array = [
 
 ]
 
-//so we will acess it either by using map or normally console.log(user[1].email)
+//so we will access it either by using map or normally console.log(user[1].email)
 
 // we can use keys and values of objects by using Object.keys('object name')
 //example- tinderapp.id = "some@gmail.com";

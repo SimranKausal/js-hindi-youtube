@@ -14,7 +14,7 @@ const myobject = {
     "fullname":"simran  kaushal",
     age: 23,
  "email":"kaushalsimran@google.com",
-    contact:9667543890,
+    "contact":9667543890,
     mysymbol:"let4"
    
 }
@@ -31,7 +31,7 @@ console.log(myobject.fullname)
 console.log(myobject['fullname'])
 
 console.log(myobject.mysymbol)
-console.log(typeof(myobject.mysymbol))// inside object it is not eorking as symbol it is representing string data type so we need yo change the syntax to put object inside the object
+console.log(typeof(myobject.mysymbol))// inside object it is not working as symbol it is representing string data type so we need yo change the syntax to put symbol inside the object
 //i.e [mysymbol]:"let4"
 
 
@@ -54,7 +54,7 @@ myobject1.fullname = "yuvraj Kaushal"
 console.log(myobject1.fullname) //here the name hs been changed and if you want to freeze the object keys that its keys cannot be changed so we cn use object.freeeze(name of the object)
 
 Object.freeze(myobject1)
-myobject1.fullname = "Simran Kaushal"// so here it reamins same yuvraj kaushal its not changing as Simran kaushl because the object has been  freezed
+myobject1.fullname = "Simran Kaushal"// so here it reamins same as  yuvraj kaushal its not changing as Simran kaushl because the object has been  freezed
  
 console.log(myobject1)
 
@@ -62,7 +62,7 @@ console.log(myobject1)
 
 //how to make  function in js
 const functioninjs = function myfunction(){
-    console.log("this is how functions are made in js")
+    console.log("this is how functions are made in js");
 }
 
 
@@ -71,7 +71,7 @@ functioninjs(); //so here we need to write the name of the variable in which we 
 
 //or we can make it by this way also 
 function myfunctionagain () {
-    console.log("this is the second way we can create functions without storing in the variable also")
+    console.log("this is the second way we can create functions without storing it in the variable also")
 }
 
 myfunctionagain();// this is just a function so we wont log it seperately
