@@ -61,7 +61,7 @@
 //sometimes we dont knaw that how many arguments are going to come for the function
 // so we need to make a flexible function so that it can atleast hold the number of arguments the user put and perform operation
 // so for that we use rest operator
-//suppose the total amount of the cart to be calculated based upon the items received through arguments, so we will use rest operator in order to calcualte the total cart prize by takin n number of arguments
+//suppose the total amount of the cart to be calculated based upon the items received through arguments, so we will use rest operator in order to calcualte the total cart prize by taking n number of arguments
 //  function CalculatecartPrice( num1) {
 //  return num1;
 //  }
@@ -80,7 +80,7 @@
 
  //how to pass object to a function?
  //suppose we have a function named user
-//  const user = {//............................................this is the object we are sending as argument t the user function
+//  const user = {//............................................this is the object we are sending as argument to the user function
 // username:"hitesh",
 // course:"js",
 // price:199
@@ -103,13 +103,54 @@
 
 // how to pass an array in a function 
 
-const array = [10 , 20 ,30 ,40]
+// const array = [10 , 20 ,30 ,40]
 
-function handleArray ( getArray) {// the parameter has been named as getarray because we can give any array to this function so we hae to put some generic name
-return getArray[1];
+// function handleArray ( getArray) {// the parameter has been named as getarray because we can give any array to this function so we have to put some generic name
+// return getArray[1];
 
-}
- console.log(handleArray(array)); // so this is how we pass array to function 
+// }
+//  console.log(handleArray(array)); // so this is how we pass array to function 
  //..................................whether its an object or array we have to use the generic name ................................//
+
+
+//  Practicing functions
+//  function  myfunction (a,b){
+//     return a+b;
+//  }
+ 
+
+//  function yourfunction(a,b){
+//     console.log(a-b);
+//  }
+
+//  console.log(myfunction(5,3));
+// console.log(typeof(myfunction(5,3)));
+// yourfunction(5,3);
+// console.log(typeof(yourfunction(5,3)));
+
+
+// 3 ways to define a function in javascript
+//1. function myfunction() {
+// console.log("hello");
+// }
+
+
+//2.storing it in a variable   its known as expression //
+// const greet = function(){
+// console.log("hello there")};
+// };
+
+// while calling we write the variable name not the function name and its important to terminate it with a semicolon terminator
+
+
+// 3. is arrow functions
+
+// 4.how to write functions in object 
+// const myobj = {
+//     greet: function(){
+//         "name":"Simran kaushal"
+//     }
+// }
+
 
 

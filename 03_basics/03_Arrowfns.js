@@ -24,7 +24,7 @@ function chai() {
 chai();
 
 
-//now strtaing with arrow fns
+//now starting with arrow fns
 const twoSum  = (a,b) =>{// example of arrow fns 
 return a+b;// explicit return ...matlab explicitly lagana pdh raha hai normal
 
@@ -44,7 +44,7 @@ return a+b;// explicit return ...matlab explicitly lagana pdh raha hai normal
 //sometimes we dont want our function variables  to  get polluted by our global declared variables so for that we use immediately invoked function to execute immidiately upon its declaration so for these reasons we use IIFE
  // so this is the classical way of writing function (function chai() {
 //                                                   console.log("Database Connected")
-//                                                                   })();// function chai is wrapped under for securing it from pollution or global variable and the next set of bracket are functions normal brackets nad terminate semicolon is to terminate or to stop the fn because this funcyion was immediately invoked so that is why to stop it
+//                                                                   })();// function chai is wrapped under for securing it from pollution or global variable and the next set of bracket are functions normal brackets and terminate semicolon is to terminate or to stop the fn because this function was immediately invoked so that is why to stop it.
 
 
 // doing iife with another function syntax
@@ -68,6 +68,6 @@ return a+b;// explicit return ...matlab explicitly lagana pdh raha hai normal
 
   ((name) => {
   console.log(`DB connected Mr.${name}`);
-})('hitesh'); // so thi is how we nned to pass arguments to iife function and we need to end every statement in the iife function with semicolon its compulsory itherwise we will have to handle errors
+})('hitesh'); // so this is how we nned to pass arguments to iife function and we need to end every statement in the iife function with semicolon its compulsory otherwise we will have to handle errors
 
-/// the iife which has name is known as named iffe and which do not containes a name known as un named which and similarly those with parameters and non parameters simulataneously 
+/// the iife which has name is known as named iffe and which do not containes a name known as  unnamed which and similarly those with parameters and non parameters simulataneously .
